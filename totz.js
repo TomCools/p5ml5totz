@@ -1,23 +1,20 @@
 class Totoro extends GameObject {
-    constructor() {
-        super(200, 100, 48,48);
-        this.velocity = new createVector(0, 0);
-        this.acceleration = new createVector(0, 0);
-    }
-
-    update() {
-        // Add the current speed to the position.
-        this.velocity.add(this.acceleration);
-        this.position.add(this.velocity);
-
-        this.acceleration = new createVector(0,0);
-    }
-
-    applyForce(vector) {
-        this.acceleration.add(vector);
+    constructor(startPositionX, startPositionY, image) {
+        super(startPositionX, startPositionY);
+        this.drawImage = image
+        //Width below is set by p5 to the canvas width :-)
+        this.width = width / 10;
+        this.height = this.width;
     }
 
     display() {
-        image(totzImg, this.position.x, this.position.y, this.width, this.height);
+        // image(..) is a P5.js method to draw an image on the canvas
+        image(this.drawImage,
+            this.position.x, this.position.y,
+            this.width, this.height);
+    }
+
+    boxes() {
+        return [new BoundingBox(this.position.x, this.position.y, this.width, this.height)];
     }
 }

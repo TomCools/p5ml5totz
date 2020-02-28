@@ -16,7 +16,7 @@ let bg;
 function preload() {
     classifier = ml5.imageClassifier(imageModelURL + 'model.json', modelLoaded);
     bg = loadImage('assets/background.png');
-    totzImg = loadImage('assets/totoroSprite.png');
+    totzImg = loadImage('assets/totzSprite.png');
     noLoop();
 }
 
