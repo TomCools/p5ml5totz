@@ -27,3 +27,8 @@ The code will only work if you train a model to detect two classes:
 
 You can use different names but then you'd need to adjust the code accordingly.
 
+# Resource list
+
+- Totoro image from [NicePNG](https://www.nicepng.com/maxp/u2q8y3a9e6t4o0e6/)
+- Background image from [Craftpix](https://craftpix.net/)
+
