@@ -10,7 +10,7 @@ It worked out nicely using:
 I have blogged about this project on my website:
 
 - [A plushy controlled game (Part 1): Journey into p5.js](https://tomcools.be/post/feb-2020-plushy-game-1/)
-- [A plushy controlled game (Part 2): JLearning to fly with ml5.js and the Teachable Machine](https://tomcools.be/post/feb-2020-plushy-game-2/)
+- [A plushy controlled game (Part 2): Learning to fly with ml5.js and the Teachable Machine](https://tomcools.be/post/feb-2020-plushy-game-2/)
 
 # Result
 
