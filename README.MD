@@ -12,6 +12,10 @@ I have blogged about this project on my website:
 - [A plushy controlled game (Part 1): Journey into p5.js](https://tomcools.be/post/feb-2020-plushy-game-1/)
 - [A plushy controlled game (Part 2): JLearning to fly with ml5.js and the Teachable Machine](https://tomcools.be/post/feb-2020-plushy-game-2/)
 
+# Result
+
+![](result/totz.gif)
+
 # Change the model
 
 It is possible to train your own model with the Teachable Machine and use this code.
