@@ -19,6 +19,7 @@ I have blogged about this project on my website:
 # Change the model
 
 It is possible to train your own model with the Teachable Machine and use this code.
+Train an "Image Project" and either download the model or upload it to Google Cloud.
 All you have to change is the **imageModelURL** variable in **main.js**.
 
 The code will only work if you train a model to detect two classes:
@@ -26,6 +27,8 @@ The code will only work if you train a model to detect two classes:
 - "Close"
 
 You can use different names but then you'd need to adjust the code accordingly.
+
+**If you make your own implementation with a custom model, please share it with me! Very curious to see what you come up with!**
 
 # Resource list
 
